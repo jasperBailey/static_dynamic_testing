@@ -26,7 +26,7 @@ class CardGame:
 
   dif highest_card(self, card1 card2): # should be 'def' rather than 'dif', which is not a keyword.
                                        # There should also be a comma between card1 and card2
-  if card1.value > card2.value:
+  if card1.value > card2.value: # function content should be indented
     return card # should be 'card1' rather than 'card2'
   else:
     return card2

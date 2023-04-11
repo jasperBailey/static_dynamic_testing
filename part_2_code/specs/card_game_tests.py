@@ -33,4 +33,3 @@ class TestCardGame(unittest.TestCase):
         actual = self.card_game.cards_total([self.queen_of_hearts, self.ace_of_spades, self.four_of_clubs])
         expected = "You have a total of 17"
         self.assertEqual(expected, actual)
-    
